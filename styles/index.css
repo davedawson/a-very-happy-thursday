@@ -1,0 +1,89 @@
+/* This code is copyright Dave Dawson 2011 
+Please don't steal. Just ask! :) */
+
+/* RESET */
+/* YUI Reset version: 2.7.0 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset,img { border: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup { font-style: inherit; font-weight: inherit; }
+del,ins { text-decoration: none; }
+li { list-style: none; }
+caption, th { text-align: left; }
+h1,h2,h3,h4,h5,h6 {	font-size: 100%; font-weight: normal; }
+q:before, q:after {	content: ''; }
+abbr,acronym { border: 0; font-variant: normal; }
+sup { vertical-align: baseline; }
+sub { vertical-align: baseline; }
+/*because legend doesn't inherit in IE */
+legend { color: #000; }
+input,button,textarea,select,optgroup,option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+input,button,textarea,select { *font-size: 100%; }
+
+
+/* COMMONS  */
+html { background-image:  url(../images/pooh_piglet.jpg), url(../images/paper_bg_tile.jpg); background-repeat: no-repeat, repeat; background-position: center 810px, top left; font-family: "ff-cocon-web-pro-1","ff-cocon-web-pro-2", Georgia, Times, serif; color: #333; }
+body {  }
+
+a, a:link {  }
+a:hover { text-decoration: none; }
+a:active { }
+h1 { font-size: 240px; width: 975px; height: 800px; margin: 0 auto; text-indent: -9999px; background: url(../images/a_very_happy_thursday_title.gif) no-repeat; line-height: .85em; margin: 40px auto 0px auto; text-align: center; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+     h1 { font-size: 240px; width: 940px; margin: 0 auto; font-family: "corner-store-1","corner-store-2", Sniglet, Helvetica, Arial, sans-serif; background: url(../images/bg_tile.png) repeat; -webkit-text-fill-color: transparent; -webkit-background-clip: text; line-height: .85em; padding: 40px 50px 0px 50px; text-align: center; text-indent: 0; height: 700px; }
+}
+h1 a:link, h1 a {  }
+h1 a:hover {  }
+h2 { }
+h2 a { }
+h2 a:hover {  }
+h3 strong {  }
+h3 a {  }
+h4 {  }
+
+
+
+/* Header */
+#header { background: #000; color: #fff; }
+#header nav { width: 975px; margin: 0 auto; }
+
+/* Body */
+#content { width: 975px; margin: 0 auto; }
+p { font-weight: 900; font-size: 26px; margin: 25px 0; text-align: center; color: #333; color: rgba(0,0,0,0.7); }
+p.top { width: 600px; margin: 65px auto 50px; }
+p.bottom { float: left; margin: 50px 0 0 65px;}
+nav { color: #999; font-size: 12px; font-weight: 100; text-align: center; margin-bottom: 100px; clear: both; margin: 470px auto 0; padding-bottom: 10px; float: left; width: 100%; line-height: 3em;}
+nav a { color: #999; }
+/* Default Post Section */
+/* p.lead-in:first-letter { font-size : 3em; float : left; padding-right: .1em; color: rgba(0,0,0,0.8); line-height: 0.85em;} */
+
+#social { text-align: center; width: 210px; margin: 0 auto; float: left;}
+#social #twitter { float: left; }
+#about { float: left; margin-right: 20px; margin-top: -5px; }
+#more { margin: 0 auto; width: 340px; }
+/* INTERIOR */
+
+
+
+
+.center { margin: 0 auto; }
+.inline { display: inline; }
+.block { display: block; }
+.stretcher { clear: both; height: 1px; visibility: hidden; }
+.nomargin { margin-bottom: 0px; }
+
+.left-nomargin { float: left; margin: 0; padding: 0;}
+.right-nomargin { float: right; margin: 0; padding: 0;}
+.clear {clear:both; height:0; margin:0; font-size: 1px; line-height: 0;}
+.required { color: red; }
+
+i, em { font-style: italic; }
+b, strong { font-weight: bold; }
+
+sup, sub { height: 0; line-height: 1; vertical-align: baseline; _vertical-align: bottom; position: relative;}
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+
+.box:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.box {display:inline-block;}
+.box {display:block;}
